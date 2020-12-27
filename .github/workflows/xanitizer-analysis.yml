@@ -12,7 +12,7 @@
 #
 # 2. The content of the license file has to be stored as a GitHub secret (e.g. XANITIZER_LICENSE) on this repository.
 #    Please consult https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets for details.
-#
+#    mvn -f path/to/pom.xml <goals> ..
 # 3. Reference the GitHub secret in the step using the `RIGS-IT/xanitizer-action` GitHub action.
 #    Example:
 #    - name: Xanitizer Security Analysis
